@@ -26,7 +26,7 @@ IDbCommand dbcmd;
 
 private IDataReader reader;
 	
-### Database 	Name And Path
+### Database 	Name
 string DatabaseName = "Yourdatabasename.s3db";
 
 ### For all platform
