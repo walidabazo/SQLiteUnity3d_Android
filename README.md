@@ -60,9 +60,9 @@ string filepath = Application.dataPath + "/Plugins/" + DatabaseName;
  // #UNITY_WP8
                                        
                                        var loadDb = Application.dataPath + "/StreamingAssets/" + DatabaseName;  
-		                               // this is the path to your StreamingAssets in iOS
-                                     //then save to Application.persistentDataPath
-                                     File.Copy(loadDb, filepath);
+		                       // this is the path to your StreamingAssets in iOS
+                                      //then save to Application.persistentDataPath
+                                      File.Copy(loadDb, filepath);
 
            
 
@@ -108,8 +108,9 @@ Table Name (Staff) Have ID is PRIMARY KEY , Name, Address
 	
 ### To Select  Sqlite
 
-  string Name_readers, Address_readers;
-  using (dbconn = new SqliteConnection(conn))
+
+    string Name_readers, Address_readers;
+    using (dbconn = new SqliteConnection(conn))
         {
             dbconn.Open(); //Open connection to the database.
             IDbCommand dbcmd = dbconn.CreateCommand();
@@ -133,7 +134,8 @@ Table Name (Staff) Have ID is PRIMARY KEY , Name, Address
 	    
 	    
 ### To Insert  Sqlite
-   using (dbconn = new SqliteConnection(conn))
+
+    using (dbconn = new SqliteConnection(conn))
         {
             dbconn.Open(); //Open connection to the database.
             dbcmd = dbconn.CreateCommand();
@@ -146,7 +148,8 @@ Table Name (Staff) Have ID is PRIMARY KEY , Name, Address
         Debug.Log("Insert Done  ");
 	
 ### To Update  Sqlite	
-   using (dbconn = new SqliteConnection(conn))
+
+      using (dbconn = new SqliteConnection(conn))
         {
             dbconn.Open(); //Open connection to the database.
             dbcmd = dbconn.CreateCommand();
