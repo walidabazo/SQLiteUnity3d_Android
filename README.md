@@ -170,8 +170,9 @@ Table Name (Staff) Have ID is PRIMARY KEY , Name, Address
         }
 	
 ### To Search By ID
- using (dbconn = new SqliteConnection(conn))
-        {
+  
+    using (dbconn = new SqliteConnection(conn))
+         {
             string Name_readers_Search, Address_readers_Search;
             dbconn.Open(); //Open connection to the database.
             IDbCommand dbcmd = dbconn.CreateCommand();
