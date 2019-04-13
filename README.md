@@ -5,7 +5,8 @@
 [![Watch the video](https://img.youtube.com/vi/dezAuScV9ZY/0.jpg)](https://youtu.be/dezAuScV9ZY)
 
 Show Tutorial SQLite Unity3d ( Android , Windows Phone , Windows , IOS, WINRT )
- https://www.youtube.com/watch?v=dezAuScV9ZY 
+
+https://www.youtube.com/watch?v=dezAuScV9ZY 
 
 ### Must Be Add this Refranace
 
@@ -63,10 +64,11 @@ string filepath = Application.dataPath + "/Plugins/" + DatabaseName;
 
 // #UNITY_IOS
 
-                                          var loadDb = Application.dataPath + "/Raw/" + DatabaseName;
-					  // this is the path to your StreamingAssets in iOS
-                                          // then save to Application.persistentDataPath
-                                          File.Copy(loadDb, filepath);
+
+    var loadDb = Application.dataPath + "/Raw/" + DatabaseName;
+    // this is the path to your StreamingAssets in iOS
+    // then save to Application.persistentDataPath
+    File.Copy(loadDb, filepath);
 
 
 
@@ -74,13 +76,11 @@ string filepath = Application.dataPath + "/Plugins/" + DatabaseName;
 ### DatabBase Path for Windows Phone :
 
  // #UNITY_WP8
-                                       
-                                       var loadDb = Application.dataPath + "/StreamingAssets/" + DatabaseName;  
-		                       // this is the path to your StreamingAssets in iOS
-                                      //then save to Application.persistentDataPath
-                                      File.Copy(loadDb, filepath);
-
-           
+ 
+    var loadDb = Application.dataPath + "/StreamingAssets/" + DatabaseName;  
+    // this is the path to your StreamingAssets in iOS
+    //then save to Application.persistentDataPath
+    File.Copy(loadDb, filepath);         
 
 
 
@@ -88,12 +88,12 @@ string filepath = Application.dataPath + "/Plugins/" + DatabaseName;
 
  // #UNITY_WINRT
  
-
-                                  var loadDb = Application.dataPath + "/StreamingAssets/" + DatabaseName;  
-	                           // this is the path to your StreamingAssets in iOS
-                                 // then save to Application.persistentDataPath
-                                 File.Copy(loadDb, filepath);
+      var loadDb = Application.dataPath + "/StreamingAssets/" + DatabaseName;  
+     // this is the path to your StreamingAssets in iOS
+    // then save to Application.persistentDataPath
+    File.Copy(loadDb, filepath);
       
+ 
 
 ### open Database SQlite Unity  connection
         conn = "URI=file:" + filepath;
