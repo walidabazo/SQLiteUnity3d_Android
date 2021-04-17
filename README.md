@@ -6,11 +6,11 @@
 
 Show Tutorial SQLite Unity3d ( Android , Windows Phone , Windows , IOS, WINRT )
 
-https://www.youtube.com/watch?v=dezAuScV9ZY 
+https://shorturl.edafait.com/?SQLiteUnity3d
 
 
 ## YouTube Channel Wonder developer To Subscriber 
-https://youtube.com/channel/UCNJVG9_IebHe-NF-K_Y8Grw?sub_confirmation=1
+https://shorturl.edafait.com/?Subscribe
 
 
 ### Must Be Add this Refranace
